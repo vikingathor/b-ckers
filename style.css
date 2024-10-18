@@ -1,0 +1,107 @@
+header {
+  display: flex;
+  justify-content: center;
+  background-color: wheat;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2{
+    color: orange;
+text-align: center;  
+   
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.ett {
+    flex: 0 0 70%;
+    margin: 10px;
+    height: 600px;
+    width: auto;
+    background-image: url(font.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.två {
+    background-color: wheat;
+    flex: 0 0 20%;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+ul {
+    margin: 20px;
+    list-style-type:none;
+}
+
+ul {
+
+}
+
+
+
+.side{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+ width: 91%;
+  height:30vh;
+  border:none;
+  margin-left: 17px;
+  
+  
+}
+.side1{
+  width: 30%;
+  height: 90%;
+  border: 2px solid black;
+  color: rgb(12, 63, 7);
+  text-align: center ;
+  line-height: 20px;
+  margin: 2px;
+  
+}
+.side2{
+  width: 30%;
+  height: 90%;
+  border: 2px solid black;
+  margin: 2px;
+}
+
+
+
+.side3{
+  width: 30%;
+  height: 90%;
+  border: 2px solid black;
+  margin: 2px;
+
+}
+
+.side4{
+  width: 30%;
+  height: 90%;
+  border: 2px solid black;
+  margin: 2px;
+
+}
+footer {
+    display: flex;
+   
+    
+    background-color: orange;
+    
+}
+
+/*# sourceMappingURL=style.css.map */
