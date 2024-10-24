@@ -1,0 +1,129 @@
+@import 'variables';
+@import 'mixins';
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: $secondary-bg-color;
+     /* text-shadow: 2px 2px 12px rgb(0, 0, 0); */
+     box-shadow: $shadow-box;
+     border:0solid$secondary-color;
+     font-family:$font-family-serif;
+     border-radius: $border-radius;
+     flex-wrap:wrap;
+     align-content: center;
+     width: 100%;
+     align-items: center;
+     /* position: sticky; */
+}
+
+.logo{
+  
+    margin-left: 0;
+    margin-right: 20px;
+    margin-top: $margin;
+
+}
+
+hr{
+    border: 0;
+    height: 2px;
+    width: 100%;
+    background-color: $secondary-color;
+    margin: 5px;
+}
+nav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: $margin;
+}
+
+nav a {
+    display: flex;
+    color: $secondary-color;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: $base-font-size;
+    font-family: $font-family-prociono;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav a:hover {
+    color: $highlight-color;
+  }
+
+  body{
+    background-color:$primary-bg-color ;
+    
+  }
+
+  h1{
+    font-size: $large-font-size;
+    color: $secondary-color;
+  }
+  
+  h2{
+    font-size: $base-font-size;
+    text-align: center;
+    color: $secondary-color
+  }
+
+  h4{
+    background-color: $secondary-bg-color;
+    border: $secondary-color;
+    border-radius: $border-radius;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align:center;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: $secondary-bg-color;
+    border-radius: $border-radius;
+    border-bottom: 1px;
+    border-top: 2px;
+    width: 100%;
+
+  }
+
+  footer p {
+    line-height: 25px;
+    font-size: 18px;
+    
+  }
+
+  footer img {
+    vertical-align: middle;
+  }
+
+  .välkommen {
+    display: flex;
+    margin-top: $margin;
+    justify-content: center;
+    font-size: $medium-font-size;
+    text-decoration: underline;
+  }
+
+  .kommande {
+    display: flex;
+    justify-content: center;
+    font-size: $small-font-size;
+    text-decoration: underline;
+  }
+
+@media(max-width: 600px){
+    header{
+        flex-direction: column;
+    }
+    .logo{
+        margin: $margin;
+    }
+}

@@ -1,0 +1,10 @@
+@mixin bild-styling {
+    width: 70px;
+    height: auto;
+    margin-bottom: 20px;
+    transition: 1s;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
